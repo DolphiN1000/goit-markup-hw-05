@@ -652,6 +652,7 @@ border-radius: 4px;
 }
 
 .modal-close {
+  padding: 0;
   position:fixed ;
   top: 8px;
   right: 8px;
