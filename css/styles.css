@@ -44,9 +44,6 @@ address {
   font-style: normal;
 }
 
-/* li {
-  list-style: none;
-} */
 
 .list {
   list-style: none;
@@ -102,7 +99,7 @@ button {
   display: flex;
   flex-direction: row;
   text-align: center;
-  align-items: center;
+  align-items: baseline;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -128,9 +125,20 @@ button {
 .active {
   color: var(--current-color);
 }
+
+.active::after {
+  display: block;
+  content: '';
+  width: 101%;
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 28px;
+  background-color: var(--current-color);
+}
+
 .contact-nav-link {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -259,10 +267,10 @@ button {
 
 .header-list {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   padding-top: 32px;
-  padding-bottom: 32px;
+ 
 }
 
 .description-item {
