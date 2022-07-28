@@ -633,3 +633,41 @@ button {
   fill: currentColor;
 
 }
+
+.is-hidden {
+  visibility:hidden ;
+  opacity: ;
+  pointer-events: none ;
+}
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+
+.modal-close {
+  position:fixed ;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../images/close-black.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+}
+
+.modal-close-icon {
+  width: 18px; 
+  height: 18px;
+}
